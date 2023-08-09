@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Netflix-like Homepage</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #ffffff;
+  }
+  header {
+    background-color: #e50914;
+    padding: 10px 0;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000;
+  }
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .hero {
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .btn {
+    background-color: #e50914;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #b2070d;
+  }
+  .footer {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Now Streaming on Netflix </h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">TV Shows</a>
+    <a href="#">Movies</a>
+    <a href="#">My List</a>
+  </nav>
+  <div class="hero">
+    <div>
+      <h1>YOur Favorite Movies, TV Shows, and More!</h1>
+      <p>Watch anywhere, anytime.</p>
+      <button class="btn">Get Started</button>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2023 Your Streaming Service. All rights reserved.</p>
+  </footer>
+</body>
+</html>
